@@ -16,11 +16,10 @@ var deeztron = {
         button.click();
     },
     settheme: function (theme) {
-
+        alert(theme);
     },
     setvolume: function () {
 
     }
-
 
 };
