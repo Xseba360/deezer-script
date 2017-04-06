@@ -1,7 +1,3 @@
-// This file is required by the index.html file and will
-// be executed in the renderer process for that window.
-// All of the Node.js APIs are available in this process.
-
 var deeztron = {
     play: function () {
         var button = document.getElementsByClassName('control-play')[0];
@@ -32,7 +28,7 @@ var deeztron = {
             } else {
                 var oLink = document.createElement("link");
                 oLink.id   = 'myStyles';
-                oLink.href = "https://userstyles.org/styles/140761/dark-deezer.css";
+                oLink.href = "https://xseba360.github.io/deezer-script/dark-deezer.min.css";
                 oLink.rel = "stylesheet";
                 oLink.type = "text/css";
                 document.body.appendChild(oLink);
@@ -43,7 +39,7 @@ var deeztron = {
             if ( el !== null ) {
                 el.parentNode.removeChild(el);
             } else {
-                
+
             }
         }
     },
